@@ -1,6 +1,6 @@
 <?php 
 
-namespace Modules\Carousel;
+namespace Modules\Mello_Carousel;
 
 class Carousel{
 
