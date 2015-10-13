@@ -1,0 +1,40 @@
+.carousel{
+
+}
+  .carousel-item{
+    width:100%;
+  }
+    .carousel-image{
+      width: 100%;
+      img{
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+.full-height{
+
+  .carousel{
+    height: 100%;
+  }
+    .carousel-item{
+      height: 100%;
+      position: relative;
+      background:#5d5d5d;
+    }
+      .carousel-text{
+        text-align: center;
+        position: absolute;
+        bottom:40px;
+        width: 100%;
+      }
+        .carousel-description{
+          display: inline-block;
+          border-bottom: 1px solid;
+          padding: 0 1em;
+        }
+
+    .flickity-page-dots{
+        bottom:10px;
+    }
+}

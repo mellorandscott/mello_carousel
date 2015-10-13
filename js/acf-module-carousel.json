@@ -1,0 +1,114 @@
+{
+    "key": "5589955db5727",
+    "name": "featured_carousel",
+    "label": "Featured Carousel",
+    "display": "row",
+    "sub_fields": [
+        {
+            "key": "field_55899585b572b",
+            "label": "Carousel Items",
+            "name": "carousel_items",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": "",
+            "layout": "table",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_55899592b572c",
+                    "label": "Item Image",
+                    "name": "item_image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": 1000,
+                    "max_height": 1000,
+                    "max_size": "",
+                    "mime_types": "png, jpg"
+                },
+                {
+                    "key": "field_558995dab572d",
+                    "label": "Above Line",
+                    "name": "above_line",
+                    "type": "text",
+                    "instructions": "i.e: Heritage",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_5589965cb572f",
+                    "label": "Below Line",
+                    "name": "below_line",
+                    "type": "text",
+                    "instructions": "i.e. Discover",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_55899619b572e",
+                    "label": "Item Button Link To",
+                    "name": "link_to",
+                    "type": "page_link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [],
+                    "taxonomy": [],
+                    "allow_null": 0,
+                    "multiple": 0
+                }
+            ]
+        }
+    ],
+    "min": "",
+    "max": ""
+}
